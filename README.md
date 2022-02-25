@@ -19,12 +19,12 @@ Train model with \[num] of epochs:
 python artstyle.py train --dataset="content\datasets\photos" --epochs=[num]
 ```
 
-Evaluate model: 
+Evaluate with a designated set of images: 
 ```
 python artstyle.py evaluate --model="model/[filename of model].h5" --testdir="content\datasets\photos\test"
 ```
 
-Use the model to classify a set of images: 
+Inference: 
 ```
 python artstyle.py classify --model="model/[filename of model].h5" --image="[directory of images to classify]"
 ```
