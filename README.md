@@ -9,7 +9,7 @@ Requirements
 - Python 3
 - Jupyter Notebook
 - matplotlib
-- Anaconda
+- Anaconda (for Jupyter Notebook)
 
 
 ## Commands: 
